@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    /* it will add padding and box width */
+    font-family: "Josefin Sans",sans serif;
+    font-size: 17px;
+    scroll-behavior: smooth;
+    /* it will smooth the scrool */
+}
+:root{
+    --blue:#9abec1;
+    --black:#333030;
+    --red:#e92424;
+}
+
+/* navbar */
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 80%;
+}
+
+/* hiding checkbox and menu in windows mode */
+#check, .menu{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+ 
+.logo .dot{
+    display: inline-block;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background: var(--black);
+    margin: 0.2rem;
+    
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+}
+.nav-links a:last-child{
+    margin: 0rem;
+}
+a:hover{
+    color: var(--blue);
+}
+.nav-links .active{
+    color: var(--blue);
+}
+.nav-links a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: var(--blue);
+    width: 0%;
+    transition: all ease-in-out 300ms;
+  }
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  /* scroll bar design */
+  ::-webkit-scrollbar{
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--red);
+    background: linear-gradient(
+      90deg,
+      rgba(52, 1, 11, 1) 0%,
+      rgba(121, 9, 9, 1) 36%,
+      rgba(255, 0, 0, 1) 100%
+    );
+  }
+  ::-webkit-scrollbar-track {
+    background: #e4a576;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(
+      circle,
+      rgba(52, 1, 11, 1) 0%,
+      rgba(121, 9, 9, 1) 36%,
+      rgba(255, 0, 0, 1) 100%
+    );
+  }
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  .brands{
+    height: 250vh;
+  }
+  .hero {
+    background: var(--blue);
+    padding: 5rem 10% 0rem 10%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .hero-bg {
+    background: var(--black);
+    width: 65rem;
+    height: 37rem;
+    border-radius: 20rem;
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 0;
+    right: -15.3rem;
+    top: -10rem;
+  }
+  .hero-bg img {
+    transform: rotate(45deg);
+    
+  }
+
+
+  .hero .intro {
+    position: absolute;
+    margin-bottom: 7rem;
+    z-index: 1;
+  }
+  .hero .intro h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .hero .intro h2 {
+    margin: 1rem 0;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .hero .intro button {
+    background: var(--red);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+  }
+
+  .scroll {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    z-index: 2;
+  }
+  .scroll a {
+    color: var(--black);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .scroll a:hover {
+    color: var(--black);
+  }
+  .scroll .svg {
+    margin-right: 0.5rem;
+  }
+/* log in */
+.log-in{
+  padding: 0%;
+  position: absolute;
+  margin-top: 5rem;
+  z-index: 2;
+  font-size: large;
+}
+#c{
+  background-color: #e62686;
+  width: 100px;
+  height: 30px;
+  font-style: italic;
+  border-radius: 20px;
+  display: inline-block;
+}
+  
