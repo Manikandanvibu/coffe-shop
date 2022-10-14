@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -200,4 +203,156 @@ a:hover{
   border-radius: 20px;
   display: inline-block;
 }
+
+/* content page */
+.vibu{
+  display: flex;
+  padding: 90px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(229, 56, 8);
+}
+.brands img {
+  width: 300px;
+  height: 250px;
+  box-shadow: 10px 10px 8px #888888;
+}
+.e h1 {
+  font-family: 'Silkscreen', cursive;
+  font-size: xx-large;
+  margin-left: 120px; 
+}
+.e h2 {
+  font-family: 'Silkscreen', cursive;
+  font-size: x-large;
+  margin-left: 10px;
+}
+.f img {
+  margin-left: 250px;
+}
+.f h1 {
+  font-family: 'Silkscreen', cursive;
+  font-size: xx-large;
+  margin-left: 290px; 
+
+}
+.f h2 {
+  font-family: 'Silkscreen', cursive;
+  font-size: x-large;
+  margin-left: 310px;
+}
+.g img {
+  margin-left: 190px;
+}
+.g h1 {
+  font-family: 'Silkscreen', cursive;
+  font-size: xx-large;
+  margin-left: 320px; 
+
+}
+.g h2 {
+  font-family: 'Silkscreen', cursive;
+  font-size: x-large;
+  margin-left: 260px;
+}
+/* <!-- opening Time --> */
+.h h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 200px;
+  font-size: xx-large; 
   
+}
+.h{
+  margin-top: 200px;
+  margin-left: 400px;  
+  text-shadow: 1px 1px 2px pink;
+}
+.h img {
+  margin-left: 500px;
+  position: absolute; 
+  top: 1400px;
+}
+
+/* product descriptiom */
+.rahul{
+  height: 540px;
+  margin-top: 230px;
+}
+.i{
+  background-color: white;
+  width: auto;
+  height: 100px;
+}
+.i h1 {
+  text-align: center;
+  font-weight: 200px;
+  font-size: xx-large;
+  padding: 5px;
+  font-family: 'Monoton', cursive;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 2px 2px 8px #615f5f; 
+}
+.j{
+  height: 440px;
+  width: 700px;
+  background-color:white;
+}
+.j video {
+  width: 700px;
+  height: 440px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.k{
+  width: 600px;
+  height: 280px;
+  margin-left: 784px;
+  padding: 15px;
+  position: absolute;
+  top: 2020px;
+  font-size: xx-large;
+  font-weight: 200;
+}
+.k p {
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgba(219, 202, 7, 0.232);
+}
+.k button {
+  background: var(--red);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+}
+
+/* footer */
+footer {
+  color: white;
+  background: var(--black);
+  padding: 3rem 0;
+  text-align: center;
+}
+footer .logo {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+footer .logo .dot {
+  background: var(--blue);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+footer h3 {
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+footer p {
+  width: 50%;
+  margin: 0 auto 1rem auto;
+  color: rgb(156, 156, 156);
+}
+/* extra editing */
+.vibu img{
+  border-block: 5px solid rgb(13, 197, 191);
+  writing-mode: horizontal-tb;
+}
+
